@@ -1,7 +1,7 @@
-// Wyszukiwanie wzorca algorytmem KR
-// Data:  4.07.2008
-// (C)2012 mgr Jerzy Wa³aszek
-//-----------------------------
+//Wyszukiwanie wzorca algorytmem KR
+//Data:  4.07.2008
+//(C)2012 mgr Jerzy Wa³aszek
+//--------------------------
 
 #include <iostream>
 #include <string>
@@ -15,8 +15,8 @@ const int M  =  4;  // d³ugoœæ wzorca p
 const int zp = 65;  // kod pierwszego znaku alfabetu
 const int zk = 67;  // kod ostatniego znaku alfabetu
 
-// Funkcja obliczaj¹ca hasz dla ³añcucha x
-//----------------------------------------
+//Funkcja obliczaj¹ca hasz dla ³añcucha x
+//---------------------------------------
 int h(string & x)
 {
   int i, hx;
@@ -35,7 +35,7 @@ int main()
 
   srand((unsigned)time(NULL));
 
-  // generujemy ³añcuch s
+  //generujemy ³añcuch s
 
   s = "";
   for(i = 0; i < N; i++)
@@ -54,7 +54,7 @@ int main()
   // wypisujemy ³añcuch
 
   cout << s;
-  
+
   // obliczamy hasz wzorca
 
   Hp = h(p);
@@ -83,4 +83,4 @@ int main()
   }
   cout << endl;
   return 0;
-} 
+}

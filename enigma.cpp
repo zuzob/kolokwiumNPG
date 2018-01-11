@@ -1,6 +1,6 @@
-// Symulator Enigmy
-// Data: 22.08.2008
-// (C)2012 mgr Jerzy Wa³aszek
+//Symulator Enigmy
+//Data: 22.08.2008
+//(C)2012 mgr Jerzy Wa³aszek
 //-----------------------------
 
 #include <iostream>
@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// definicje elementów Enigmy
+//definicje elementów Enigmy
 
 const string pierscien_szyfr[5] = {"EKMFLGDQVZNTOWYHXUSPAIBRCJ",
                                    "AJDKSIRUXBLHWTMCQGZNPYFVOE",
@@ -44,7 +44,7 @@ int main()
 
   cin >> s;
   for(i = 0; i < s.length(); i++) s[i] = toupper(s[i]);
-  
+
   lacznica = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   for(i = 0; i < s.length() - 1; i += 2)
   {
@@ -116,4 +116,4 @@ int main()
 
   cout << s << endl << endl;
   return 0;
-} 
+}

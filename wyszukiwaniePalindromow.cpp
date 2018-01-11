@@ -1,7 +1,7 @@
-// Wyszukiwanie palindromów
-// Data: 9.08.2008
-// (C)2012 mgr Jerzy Wa³aszek
-//-----------------------------
+//Wyszukiwanie palindromów
+//Data: 9.08.2008
+//(C)2012 mgr Jerzy Wa³aszek
+//---------------------------
 
 #include <iostream>
 #include <string>
@@ -18,13 +18,13 @@ int main()
   int i,j,k,iP,iL;
   bool t;
 
-// generujemy ³añcuch s
+//generujemy ³añcuch s
 
   srand((unsigned)time(NULL));
   s = "";
   for(i = 0; i < N; i++) s += char(65 + rand() % 4);
 
-// wypisujemy ³añcuch s
+//wypisujemy ³añcuch s
 
   cout << s << endl;
 
@@ -47,4 +47,4 @@ int main()
     }
   cout << endl;
   return 0;
-} 
+}
